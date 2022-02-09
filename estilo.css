@@ -1,0 +1,135 @@
+body{
+    background-color: #404040;
+    
+}
+.tudo{height:100vh;display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items:center}
+
+.container{
+    background-color: #999CA1;
+    width: 95vw;height: 80vh;
+    border-radius: 2vh;
+    border:3px solid black; 
+    overflow: hidden;overflow-y: scroll; 
+}
+
+.tentativa{
+    background-color: #999CA1;
+    width: 95vw;height:10vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 2vh;
+    border:3px solid black; 
+}
+
+.casa{ width: 8vh;height: 8vh;
+    background-color: #404040;margin-left:1vh;
+    position:relative;
+    display: flex;justify-content: center;align-items: center;
+    border-radius: 2vh;
+    border:0.4vh solid black; 
+}
+
+.bola{
+    width: 5vh;height: 5vh;
+    
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0.5vh;
+}
+.bolinha-inexistente{width: 5vh;height: 5vh;
+    
+    border-radius: 50%;
+    border: 1px solid #404040;
+    margin: 0.5vh;}
+
+.opcoes{width:8vh ;height: 38vh;
+    background-color: white;
+    position: absolute;
+    top:-40vh;
+    display: flex;flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+.tentar{
+    position: absolute;
+    background-color: #404040;
+    height: 7vh;width:7vh;
+    right: 1vh;
+    border-radius: 50%;;
+    border:0.4vh solid black;
+    display: flex;justify-content: center;align-items: center;
+
+}
+ion-icon{font-size:7vh ;color:white}
+.botaoRecomeco ion-icon{color:black}
+
+.amarelo{background-color: yellow;}
+.vermelho{background-color: red;}
+.azul{background-color: blue;}
+.verde{background-color: green;}
+.laranja{background-color: #FF6801;}
+.roxo{background-color: purple;}
+
+.escondido{display:none;}
+
+.tentativaPrintada{
+   display: flex; margin-bottom: 1vh;
+}
+
+.bolinha-preta{
+    width: 2vh;height: 2vh;
+    border-radius: 50%;
+    border: 0.3vh solid black;
+    background-color: black;
+    margin:0.6vh
+}
+.bolinha-branca{
+    width: 2vh;height: 2vh;
+    border-radius: 50%;
+    border: 0.3vh solid black;
+    background-color: white;
+    margin:0.6vh
+}
+.bolinha-inexistente{
+    width: 2vh;height: 2vh;
+    border-radius: 50%;
+    border: 0.3vh solid #999CA1;
+    background-color: #999CA1;
+    padding:0.6vh
+}
+
+.lista-verificacoes{
+    display: flex;flex-direction: column;
+    margin-top: 0vh;
+    margin-left: 0.8vh;
+
+}
+
+.caixinha{
+    width: 8vh;height: 8vh;
+    display: flex;
+    margin-top:1vh;
+    margin-bottom: 0.8vh;
+   flex-wrap: wrap;
+}
+
+h1{color: white;
+    font-family: 'Work Sans', sans-serif;}
+
+.botaoRecomeco{
+    width: 10vh;height: 10vh;background-color: #49ff01cc;
+    margin-left:19.5vh;margin-bottom: 1vh;
+    border-radius: 50%;border: 0.5vh solid black;
+    display: flex;justify-content:center;align-items: center;
+    
+}
+.esconde{display:none}
+
+.tentativaEverificacao{display: flex;}
+
+.lista-tentativas{margin-top: 1vh}
