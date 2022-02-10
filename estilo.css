@@ -142,20 +142,23 @@ h1{color: white;
 .lista-tentativas{margin-top: 1vh}
 
 body img{
-    width:76vw;
+    width: 90vw; height: 120vw;
     border-radius: 5%;
     border:0.8vh solid black;
-    position: fixed;
+    position: absolute;
     z-index: 7;
-    left:12vw;
-    top:3vh
+    
 }
-.regras{position: relative;}
+.regras{
+    position: fixed;z-index: 6;
+    width: 90vw;height: 120vw;
+    left:5vw;top:10vh
+}
 .fechar{
     position: absolute;
     background-color: #ff01c8e1;
     height: 7vh;width:7vh;
-    right: 12vw;top: 70vh;
+    right: 0;bottom: 0;
     z-index: 9;
     border-radius: 50%;;
     border:0.4vh solid black;

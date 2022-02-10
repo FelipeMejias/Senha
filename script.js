@@ -47,7 +47,7 @@ function tentar(){
     qtdTentativas++
     adicionarTentativa();
     conferir();
-    if(qtdTentativas==4){esconderAjuda()};
+    if(qtdTentativas==2){esconderAjuda()};
 }
 
 function adicionarTentativa(){
