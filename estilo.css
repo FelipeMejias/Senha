@@ -170,3 +170,8 @@ body img{
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;z-index: 5;
 }
+
+@media(min-width:620px){
+    body img{height: 90vh;width: 70vh;}
+    .regras{width:70vh;height:90vh;left:15vw;top:5vh}
+}
