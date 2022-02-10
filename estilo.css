@@ -132,6 +132,7 @@ h1{color: white;
     width: 10vh;height: 10vh;background-color: #ff01c8e1;
     margin-left:19.5vh;margin-bottom: 1vh;
     border-radius: 50%;border: 0.5vh solid black;
+    position: fixed; top:32.5vh;
     display: flex;justify-content:center;align-items: center;
 }
 

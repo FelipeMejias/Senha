@@ -40,6 +40,10 @@ function getRandomIntInclusive(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
+function preTentar(){
+    if(escolha1!='' && escolha2!='' && escolha3!='' && escolha4!=''){tentar()}
+    else{alert('Escolha as cores da tentativa, basta clicar na casa que uma barra de seleção aparecerá.')}
+}
 
 function tentar(){
     tentativa=[escolha1,escolha2,escolha3,escolha4]
@@ -47,7 +51,7 @@ function tentar(){
     qtdTentativas++
     adicionarTentativa();
     conferir();
-    if(qtdTentativas==2){esconderAjuda()};
+    if(qtdTentativas==4){esconderAjuda()};
 }
 
 function adicionarTentativa(){
