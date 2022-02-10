@@ -47,6 +47,7 @@ function tentar(){
     qtdTentativas++
     adicionarTentativa();
     conferir();
+    if(qtdTentativas==4){esconderAjuda()};
 }
 
 function adicionarTentativa(){
@@ -106,4 +107,18 @@ function terminarJogo(){
 
 function recomecarJogo(){
     window.location.reload(true);
+}
+
+function abrirRegra(){
+    const regras=document.querySelector('.regras');
+    regras.classList.toggle('esconde')
+    const ajuda=document.querySelector('.comoJogar')
+    ajuda.classList.toggle('esconde')
+    const cortina=document.querySelector('.cortina')
+    cortina.classList.toggle('esconde')
+}
+
+function esconderAjuda(){
+    const ajuda=document.querySelector('.comoJogar');
+    ajuda.classList.toggle('esconde')
 }

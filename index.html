@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="cortina esconde"></div>
+    <div class="regras esconde">
+        <img src="regras.png"><div onclick="abrirRegra()" class="fechar"><ion-icon name="close-outline"></ion-icon></div></img>
+    </div>
     <div class="tudo">
         <div class="container">
             <div class="tentativaEverificacao">
@@ -24,6 +28,7 @@
     
             </ul>
             </div>
+            <div onclick="abrirRegra()" class="comoJogar"><ion-icon name="help-outline"></ion-icon></div>
             <div onClick="recomecarJogo()" class="botaoRecomeco esconde"><ion-icon name="refresh-outline"></ion-icon></div>
         </div>
     
