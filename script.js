@@ -13,7 +13,7 @@ let qtdTentativas=0;
 let cloneResposta=[];
 criarResposta()
 const body=document.querySelector('.body');
-body.scroll.scrollBy(0,200)
+body.scroll.scrollBy(0,-200)
 
 
 
