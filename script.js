@@ -12,6 +12,9 @@ let branco=0
 let qtdTentativas=0;
 let cloneResposta=[];
 criarResposta()
+const body=document.querySelector('.body');
+body.scroll.scrollBy(0,200)
+
 
 
 function abrirOpcoes(casa){
@@ -98,7 +101,11 @@ function adicionarVerificacoes(qtdPretos,qtdBrancos,numero){
     if(branco==0 && preto==0){
         caixa.innerHTML+='<div class="bolinha-inexistente"></div>';
     }
-    if(preto==4){setTimeout(terminarJogo,500)}
+    if(preto==4){
+        const ajuda=document.querySelector('.comoJogar');
+        ajuda.classList.add('esconde')
+        setTimeout(terminarJogo,500)
+    }
 }
 
 function terminarJogo(){
