@@ -12,8 +12,7 @@ let branco=0
 let qtdTentativas=0;
 let cloneResposta=[];
 criarResposta()
-const body=document.querySelector('.body');
-body.scroll.scrollBy(0,-200)
+
 
 
 
@@ -103,7 +102,7 @@ function adicionarVerificacoes(qtdPretos,qtdBrancos,numero){
     }
     if(preto==4){
         const ajuda=document.querySelector('.comoJogar');
-        ajuda.classList.add('esconde')
+        ajuda.classList.add('esconde');
         setTimeout(terminarJogo,500)
     }
 }
@@ -131,5 +130,5 @@ function abrirRegra(){
 
 function esconderAjuda(){
     const ajuda=document.querySelector('.comoJogar');
-    ajuda.classList.toggle('esconde')
+    ajuda.classList.add('esconde')
 }
